@@ -7,7 +7,7 @@ WireTacos is a project based on Wireshark. WireTacos is a network protocol analy
 Here is a list of network protocols that we implemented for our project:
   - Link-layer : Ethernet II (no preamble and no trailer)
   - Network-layer : IPv4, ARP, ICMP
-  - Transport-layer : TCP, UDP
+  - Transport-layer : TCP
   - Application-layer : HTTP
 
 ## File organization
