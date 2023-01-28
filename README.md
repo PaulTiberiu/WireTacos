@@ -11,7 +11,7 @@ Here is a list of network protocols that we implemented for our project:
   - Application-layer : HTTP
 
 ## File organization
-You can find all the headers (.h) in the header file, each protocol having a .h file. The .c files can be seen in the file section.
+You can find all the headers (.h) in the header file, each protocol having a .h file. The .c files can be seen in the main of this git.
 
 ## How to use it
 With the help of a makefile, you just need to write the following command in order to compile our program:
@@ -29,3 +29,4 @@ When you are finished, you can quit the program by doing ctrl^C in the terminal 
 make clean
 ```
 You also have the READ_ME.pdf that explains in detail the most important functions.
+We also have 2 files, test.txt which can be used to test the program, and the output.txt file wich is the flow graph of our test program.
