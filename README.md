@@ -11,7 +11,7 @@ Here is a list of network protocols that we implemented for our project:
   - Application-layer : HTTP
 
 ## File organization
-You can find all the headers (.h) in the header file.
+You can find all the headers (.h) in the header file, each protocol having a .h file. The .c files can be seen in the file section.
 
 ## How to use it
 With the help of a makefile, you just need to write the following command in order to compile our program:
@@ -24,7 +24,8 @@ To execute, write:
 ```
 Then you will have a menu where, with a file, you can visualize the frames. This is also explained in the  HOW_TO.pdf document
 
-When you are finished, you can quit the program by doing ctrl^C in the terminal and then erase the executable code:
+When you are finished, you can quit the program by doing ctrl^C in the terminal and then erase the executable code with the following command:
 ```
 make clean
 ```
+You also have the READ_ME.pdf that explains in detail the most important functions.
